@@ -26,6 +26,7 @@ User=$USER
 Type=simple
 ExecStart=/root/juneogo-binaries/juneogo
 Restart=on-failure
+
 LimitNOFILE=65535
 
 [Install]
