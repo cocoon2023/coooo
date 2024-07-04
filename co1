@@ -13,8 +13,6 @@ chmod +x ~/juneogo-binaries/plugins/srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFY
 mkdir -p ~/.juneogo/plugins && \
 mv ~/juneogo-binaries/juneogo/plugins && \
 
-mv ~/juneogo-binaries/plugins/srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e ~/.juneogo/plugins
-
 tee /etc/systemd/system/juneod.service > /dev/null <<EOF 
 
 Description=JUNEO Node
